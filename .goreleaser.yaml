@@ -8,8 +8,9 @@ before:
 
 builds:
   - id: weatherornot
-    main: ./cmd/weatherornot
+    main: ./cmd/weatherornot/
     binary: weatherornot
+    dir: .
     env:
       - CGO_ENABLED=0
     goos:
@@ -36,7 +37,6 @@ builds:
 
 archives:
   - id: weatherornot
-    format: tar.gz
     name_template: >-
       {{ .ProjectName }}_
       {{- .Version }}_
@@ -44,12 +44,13 @@ archives:
       {{- if eq .Arch "amd64" }}x86_64
       {{- else if eq .Arch "386" }}i386
       {{- else }}{{ .Arch }}{{ end }}
-    format_overrides:
-      - goos: windows
-        format: zip
+    builds:
+      - weatherornot
+    rlcp: true
     files:
       - README.md
       - LICENSE
+      - QUICKSTART.md
 
 checksum:
   name_template: 'checksums.txt'
