@@ -68,7 +68,7 @@ changelog:
 
 release:
   github:
-    owner: jc
+    owner: james-see
     name: weatherornot
   draft: false
   prerelease: auto

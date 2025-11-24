@@ -13,15 +13,15 @@ Get up and running with weatherornot in 5 minutes!
 
 ### Option A: Using go install
 ```bash
-go install github.com/jc/weatherornot/cmd/weatherornot@latest
+go install github.com/james-see/weatherornot/cmd/weatherornot@latest
 ```
 
 ### Option B: Download Binary
-Download from the [Releases](https://github.com/jc/weatherornot/releases) page
+Download from the [Releases](https://github.com/james-see/weatherornot/releases) page
 
 ### Option C: Build from Source
 ```bash
-git clone https://github.com/jc/weatherornot.git
+git clone https://github.com/james-see/weatherornot.git
 cd weatherornot
 go build -o weatherornot cmd/weatherornot/main.go
 sudo mv weatherornot /usr/local/bin/

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/guptarohit/asciigraph"
-	"github.com/jc/weatherornot/internal/api"
+	"github.com/james-see/weatherornot/internal/api"
 )
 
 // ChartDisplay handles temperature trend ASCII graphs

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/jc/weatherornot/internal/api"
+	"github.com/james-see/weatherornot/internal/api"
 )
 
 // WidgetDisplay renders weather data in widget style with boxes

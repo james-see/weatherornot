@@ -1,4 +1,4 @@
-module github.com/jc/weatherornot
+module github.com/james-see/weatherornot
 
 go 1.25.4
 

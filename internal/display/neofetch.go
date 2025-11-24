@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/jc/weatherornot/internal/api"
+	"github.com/james-see/weatherornot/internal/api"
 )
 
 // NeofetchDisplay renders weather data in neofetch style

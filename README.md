@@ -20,14 +20,14 @@ A beautiful, feature-rich weather CLI tool for your terminal. Get current weathe
 ### Via `go install`
 
 ```bash
-go install github.com/jc/weatherornot/cmd/weatherornot@latest
+go install github.com/james-see/weatherornot/cmd/weatherornot@latest
 ```
 
 Make sure `$GOPATH/bin` (or `$GOBIN`) is in your `PATH`.
 
 ### Download Pre-built Binaries
 
-Download the latest release for your platform from the [Releases](https://github.com/jc/weatherornot/releases) page.
+Download the latest release for your platform from the [Releases](https://github.com/james-see/weatherornot/releases) page.
 
 #### Linux/macOS
 ```bash
@@ -44,7 +44,7 @@ Download the `.zip` file, extract it, and add the executable to your PATH.
 ### Build from Source
 
 ```bash
-git clone https://github.com/jc/weatherornot.git
+git clone https://github.com/james-see/weatherornot.git
 cd weatherornot
 go build -o weatherornot cmd/weatherornot/main.go
 ```
@@ -252,7 +252,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/jc/weatherornot/issues).
+If you encounter any issues or have questions, please [open an issue](https://github.com/james-see/weatherornot/issues).
 
 ---
 
