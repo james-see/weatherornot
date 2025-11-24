@@ -8,9 +8,8 @@ before:
 
 builds:
   - id: weatherornot
-    main: ./cmd/weatherornot/
+    main: ./cmd/weatherornot
     binary: weatherornot
-    dir: .
     env:
       - CGO_ENABLED=0
     goos:
@@ -44,8 +43,6 @@ archives:
       {{- if eq .Arch "amd64" }}x86_64
       {{- else if eq .Arch "386" }}i386
       {{- else }}{{ .Arch }}{{ end }}
-    builds:
-      - weatherornot
     files:
       - README.md
       - LICENSE
