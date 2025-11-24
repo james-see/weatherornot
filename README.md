@@ -5,6 +5,8 @@ A beautiful, feature-rich weather CLI tool for your terminal. Get current weathe
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Go Version](https://img.shields.io/badge/go-1.21+-00ADD8.svg)
 
+🌐 **[Visit the Retro Website](https://james-see.github.io/weatherornot/)** 🌐
+
 ## Features
 
 - 🌤️ **Multiple Display Modes**: Choose between neofetch-style or widget-style displays
