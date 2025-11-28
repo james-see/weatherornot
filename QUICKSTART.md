@@ -11,15 +11,21 @@ Get up and running with weatherornot in 5 minutes!
 
 ## Step 2: Install
 
-### Option A: Using go install
+### Option A: Using Homebrew (macOS/Linux)
+```bash
+brew tap james-see/tap
+brew install weatherornot
+```
+
+### Option B: Using go install
 ```bash
 go install github.com/james-see/weatherornot/cmd/weatherornot@latest
 ```
 
-### Option B: Download Binary
+### Option C: Download Binary
 Download from the [Releases](https://github.com/james-see/weatherornot/releases) page
 
-### Option C: Build from Source
+### Option D: Build from Source
 ```bash
 git clone https://github.com/james-see/weatherornot.git
 cd weatherornot

@@ -63,6 +63,24 @@ changelog:
       - Merge pull request
       - Merge branch
 
+brews:
+  - name: weatherornot
+    repository:
+      owner: james-see
+      name: homebrew-tap
+      token: "{{ .Env.GITHUB_TOKEN }}"
+    commit_author:
+      name: goreleaserbot
+      email: bot@goreleaser.com
+    directory: Formula
+    homepage: "https://james-see.github.io/weatherornot/"
+    description: "A beautiful weather CLI tool with ASCII art and charts"
+    license: "MIT"
+    install: |
+      bin.install "weatherornot"
+    test: |
+      system "#{bin}/weatherornot", "--help"
+
 release:
   github:
     owner: james-see

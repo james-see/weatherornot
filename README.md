@@ -19,6 +19,13 @@ A beautiful, feature-rich weather CLI tool for your terminal. Get current weathe
 
 ## Installation
 
+### Via Homebrew (macOS/Linux)
+
+```bash
+brew tap james-see/tap
+brew install weatherornot
+```
+
 ### Via `go install`
 
 ```bash
